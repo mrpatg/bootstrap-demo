@@ -25,6 +25,13 @@
         <script type="text/javascript" src="assets/bootstrap/bootstrap.min.js"></script>
         
         <script type="text/javascript">
+
+        $(document).ready(function(){
+            setTimeout(function(){
+                navigator.splashscreen.hide();
+                $('#splash').fadeOut();
+           },1500);
+        });
             
             $.blockUI.defaults.css.top = '45%';
             $.blockUI.defaults.css.border = 'none';
@@ -39,6 +46,7 @@
         <title>PhoneGap Demo Bootstrap</title>
     </head>
     <body>
+    <div id=“splash”></div>
             
         <div class="container-fluid">
             

@@ -1,6 +1,18 @@
 /*
  * General styles
  */
+ #splash {
+    background-attachment: scroll;
+    background-color: #ecffb1; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 450px auto;
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
 body
 {
 	font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;

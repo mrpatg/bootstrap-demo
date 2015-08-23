@@ -4,9 +4,9 @@
         id        = "pl.gaman.phonetest"
         version   = "1.8.0">
 
-    <name>PhoneGap Test</name>
+    <name>Godbey Development Phonegap Test</name>
 
-    <description>This application allows you to test various aspects of your phone, including hardware (vibration, compass, audio, geolocation, sound), graphic (many test) libraries and frameworks (including Twitter Bootstrap) and overall performance of HTML5-based mobile applications written and build with PhoneGap.</description>
+    <description>Working with phonegap and bootstrap to understand how to build basic applications.</description>
 
     <author href="https://github.com/trejder">
         https://github.com/trejder/
